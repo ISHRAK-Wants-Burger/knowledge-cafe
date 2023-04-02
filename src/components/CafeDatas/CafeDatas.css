@@ -1,0 +1,12 @@
+.cafe-container {
+    border-top: 1px solid rgba(17, 17, 17, 0.15);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+@media screen and (max-width: 600px) {
+    .cafe-container {
+        display: grid;
+        grid-template-columns: 0;
+    }
+}
